@@ -12,7 +12,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="Untree.co">
-  <link rel="shortcut icon" href="favicon.png">
+  <link rel="shortcut icon" href="Servatur_Logo.png">
 
   <meta name="description" content="" />
   <meta name="keywords" content="" />
@@ -29,7 +29,7 @@
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>LuxuryHotel Free HTML Template by Untree.co</title>
+    <title>Servatur</title>
   </head>
   <body>
     
@@ -124,8 +124,11 @@
       <main class="untree_co--site-main">
         
 
-        <div class="untree_co--site-hero inner-page" style="background-image: url('images/hotel-arguineguin-galeria-slider15.jpg')">
-          <div class="container">
+        <div class="untree_co--site-hero inner-page" style="position: relative; background-image: url('images/hotel-arguineguin-galeria-slider15.jpg');">
+          <!-- Overlay para reducir el brillo de la imagen -->
+          <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.3); z-index: 1;"></div>
+        
+          <div class="container" style="position: relative; z-index: 2;">
             <div class="row align-items-center justify-content-center">
               <div class="col-md-7 text-center">
                 <div class="site-hero-contents" data-aos="fade-up">
@@ -135,6 +138,7 @@
             </div>
           </div>
         </div>
+        
         
         <div class="untree_co--site-section">
 
@@ -228,7 +232,7 @@
           <div class="container">
             <div class="row">
               <div class="col-12 text-center">
-                <h3 class="m-0 p-0">Si tiene alguna petición especial, no dude en llamarnos. <a href="tel://+34928928928">+34.928.928.928</a></h3>
+                <h3 class="m-0 p-0">Si tiene alguna petición especial, no dude en llamarnos. <a href="tel://+34 828 15 02 77">+34 828 15 02 77</a></h3>
               </div>
             </div>
           </div>
@@ -236,89 +240,50 @@
 
       </main>
       <footer class="untree_co--site-footer">
-
+        
         <div class="container">
           <div class="row">
-            <div class="col-md-4 pr-md-5">
-              <h3>Sobre nosotros</h3>
+            <div class="col-md-6 pr-md-5">
+              <h3>Conócenos</h3>
               <p>En Servatur Hotels & Resorts llevamos más de 45 años trabajando con la ilusión y con el objetivo continuo de ofrecerte las mejores experiencias vacacionales en las Islas Canarias, en estupendas ubicaciones, con el excepcional clima de las islas, y con pasión y dedicación anticipándonos a tus necesidades para que disfrutes al máximo de las vacaciones que te mereces ¿Nuestro ADN? Perseguimos la excelencia, creamos valor, innovamos para ser cada vez más eficientes y eficaces y convertirnos en una organización referente en el mercado laboral.</p>
-              <p><a href="#" class="readmore">Leer mas</a></p>
             </div>
-            <div class="col-md-8 ml-auto">
-              <div class="row">
-                <div class="col-md-3">
-                  <h3>Navegación</h3>
-                  <ul class="list-unstyled">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Habitaciones</a></li>
-                    <li><a href="#">Comodidades</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
-                  </ul>
+            
+            <div class="col-md-6 ml-auto">
+              <div class="row mb-3">
+                <div class="col-md-6">
+                  <h3>Direcciones</h3>
+                  <address>
+                    Avenida de Las Palmeras 5 - 8, 35130 <br>
+                    Puerto Rico, Gran Canaria <br><br>
+                    Avenida Gran Canaria, 24, 35130 <br>
+                    Puerto Rico, Gran Canaria
+                  </address>
                 </div>
-                <div class="col-md-9 ml-auto">
-                  <div class="row mb-3">
-                    <div class="col-md-6">
-                      <h3>Direcciones</h3>
-                      <address>Avenida de Las Palmeras 5 - 8, 35130
-                        Puerto Rico, Gran Canaria 
-                        <br><br>Avenida Gran Canaria, 24, 35130
-                        Puerto Rico, Gran Canaria <br></address>
-                    </div>
-                    <div class="col-md-6">
-                      <h3>Telefono</h3>
-                      <p>
-                        <a href="#">+34 928 928 928</a> <br>
-                       
-                      </p>
-                    </div>
-                  </div>
-
-                  <h3 class="mb-0">Suscríbete a nuestro boletín
-                  </h3>
+                <div class="col-md-6">
+                  <h3>Teléfono</h3>
+                  <p>
+                    <a href="tel:+34928726762">+34 928 72 67 62</a> <br>
+                    <a href="tel:+34928725656">+34 928 72 56 56</a>
+                  </p>
+                </div>                
+              </div>
+      
+              <div class="row mt-5">
+                <div class="col-md-12">
+                  <h3 class="mb-0">Suscríbete a nuestro boletín</h3>
                   <p>¡Sé el primero en conocer nuestras últimas actualizaciones y noticias!</p>
                   <form action="#" method="" class="form-subscribe">
                     <div class="form-group d-flex">
-                      <input type="email" class="form-control mr-2" placeholder="INgresa su email email">
-                      <input type="submit" value="Subscribe" class="btn btn-black px-4 text-white">
+                      <input type="email" class="form-control mr-2" placeholder="Ingresa tu email">
+                      <input type="submit" value="Suscríbete" class="btn btn-black px-4 text-white">
                     </div>
                   </form>
                 </div>
-                
               </div>
             </div>
-          </div>
-          <div class="row mt-5 pt-5 align-items-center">
-            <div class="col-md-6 text-md-left">
-              <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
-              <p>
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="index.html">Untree.co</a>. All Rights Reserved. Design by <a href="https://untree.co/" target="_blank" class="text-primary">Untree.co</a>
-              </p>
-            <!-- Link back to Untree.co can't be removed. Template is licensed under CC BY 3.0. If you purchased a license you can remove this. -->
-            </div>
-            <div class="col-md-6 text-md-right">
-              <ul class="icons-top icons-dark">
-              <li>
-                <a href="#"><span class="icon-facebook"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="icon-twitter"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="icon-instagram"></span></a>
-              </li>
-              <li>
-                <a href="#"><span class="icon-tripadvisor"></span></a>
-              </li>
-            </ul>
+          </footer>
+          </div>      
 
-            </div>
-          </div>
-        </div>
-        
-      </footer>
-    </div>
     <!-- Search -->
     <div class="search-wrap">
       <a href="#" class="close-search js-search-toggle">
@@ -343,14 +308,12 @@
     
     <script src="js/vendor/jarallax.min.js"></script>
     <script src="js/vendor/jarallax-element.min.js"></script>
-    <script src="js/vendor/ofi.min.js"></script>
+    <script sr c="js/vendor/ofi.min.js"></script>
 
     <script src="js/vendor/aos.js"></script>
 
     <script src="js/vendor/jquery.lettering.js"></script>
     <script src="js/vendor/jquery.sticky.js"></script>
-
-    <script src="js/vendor/jquery.fancybox.min.js"></script>
 
     <script src="js/vendor/TweenMax.min.js"></script>
     <script src="js/vendor/ScrollMagic.min.js"></script>
