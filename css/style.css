@@ -2019,3 +2019,12 @@ footer .form-subscribe .form-control:active, footer .form-subscribe .form-contro
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+/* Ocultar el dropdown cuando el cursor pase por encima del elemento 'Habitaciones' */
+.has-children ul.dropdown {
+  display: none; /* Asegura que las sublistas no se muestren */
+}
+
+.has-children:hover ul.dropdown {
+  display: none !important; /* Anula cualquier comportamiento de hover que pueda mostrar el menú */
+}
